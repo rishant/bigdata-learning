@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T19:04:38.386Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.2" etag="zfqI_55OC9FmqXpG0BEs" type="github"><diagram id="l7_K_nKnjWlxzMIl-Vjb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-20T19:16:54.620Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="khuMgMFYR1_owXwfzKhZ" version="20.2.2" type="github">
+  <diagram id="l7_K_nKnjWlxzMIl-Vjb" name="Page-1">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-8" value="HDFS Cluster&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFF99;labelBorderColor=default;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="150" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-10" value="Master Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFF99;labelBorderColor=default;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="445" y="210" width="285" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-14">
+          <mxGeometry width="285" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 9px;&quot;&gt;Data Center&lt;/span&gt;" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/storage/Datacenter_Server_Rack_ToR.svg;fontSize=15;fontColor=#7EA6E0;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-14">
+          <mxGeometry x="206.25" y="12.381278195488719" width="29.77464285714285" height="60.357142857142854" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-5" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 9px;&quot;&gt;Data Center&lt;/span&gt;" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/storage/Datacenter_Server_Rack_ToR.svg;fontSize=15;fontColor=#7EA6E0;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-14">
+          <mxGeometry x="138.75" y="12.381278195488719" width="29.77464285714285" height="60.357142857142854" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-6" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 9px;&quot;&gt;Data Center&lt;/font&gt;" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/storage/Datacenter_Server_Rack_ToR.svg;fontSize=15;fontColor=#7EA6E0;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-14">
+          <mxGeometry x="63.75000000000001" y="12.381278195488719" width="29.77464285714285" height="60.357142857142854" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="UVAYdv0MmzfgJ1ZcaGCZ-8" target="UVAYdv0MmzfgJ1ZcaGCZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-28" value="" style="group;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="320" y="80" width="630" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-15" value="&lt;span style=&quot;font-style: italic; font-weight: 700;&quot;&gt;Hadoop File System&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-28">
+          <mxGeometry width="630" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-27" value="" style="group" vertex="1" connectable="0" parent="UVAYdv0MmzfgJ1ZcaGCZ-28">
+          <mxGeometry y="30" width="630" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-27">
+          <mxGeometry width="630" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;" edge="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-27" source="UVAYdv0MmzfgJ1ZcaGCZ-8" target="UVAYdv0MmzfgJ1ZcaGCZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-12" value="Slave Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFF99;labelBorderColor=default;spacing=2;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-27">
+          <mxGeometry x="310" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-20" value="" style="group" vertex="1" connectable="0" parent="UVAYdv0MmzfgJ1ZcaGCZ-27">
+          <mxGeometry x="125" y="100" width="285" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fontColor=#000000;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-20">
+          <mxGeometry width="285" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-22" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 9px;&quot;&gt;Data Center&lt;/span&gt;" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/storage/Datacenter_Server_Rack_ToR.svg;fontSize=15;fontColor=#7EA6E0;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-20">
+          <mxGeometry x="206.25" y="12.381278195488719" width="29.77464285714285" height="60.357142857142854" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-23" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 9px;&quot;&gt;Data Center&lt;/span&gt;" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/storage/Datacenter_Server_Rack_ToR.svg;fontSize=15;fontColor=#7EA6E0;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-20">
+          <mxGeometry x="138.75" y="12.381278195488719" width="29.77464285714285" height="60.357142857142854" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-24" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 9px;&quot;&gt;Data Center&lt;/font&gt;" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/storage/Datacenter_Server_Rack_ToR.svg;fontSize=15;fontColor=#7EA6E0;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-20">
+          <mxGeometry x="63.75000000000001" y="12.381278195488719" width="29.77464285714285" height="60.357142857142854" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-25" value="Master Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFF99;labelBorderColor=default;spacing=2;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-27">
+          <mxGeometry x="10" y="190" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;" edge="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-27" source="UVAYdv0MmzfgJ1ZcaGCZ-26" target="UVAYdv0MmzfgJ1ZcaGCZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-26" value="HDFS Cluster&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFF99;labelBorderColor=default;spacing=2;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-27">
+          <mxGeometry x="10" y="40" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
