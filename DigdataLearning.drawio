@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T19:43:24.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="G_WaJMbV-458fdX09P0G" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T19:55:39.213Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6b3oWknWwA9_LKUcepLk" version="20.2.2" type="github">
   <diagram id="l7_K_nKnjWlxzMIl-Vjb" name="Page-1">
     <mxGraphModel dx="1888" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-28">
           <mxGeometry y="30" width="630" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-12" value="Slave Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFF99;labelBorderColor=default;spacing=2;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-28">
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-12" value="Slave/Data Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFF99;labelBorderColor=default;spacing=2;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-28">
           <mxGeometry x="310" y="70" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-20" value="" style="group" vertex="1" connectable="0" parent="UVAYdv0MmzfgJ1ZcaGCZ-28">
@@ -31,7 +31,7 @@
         <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-24" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 9px;&quot;&gt;Data Center&lt;/font&gt;" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/storage/Datacenter_Server_Rack_ToR.svg;fontSize=15;fontColor=#7EA6E0;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-20">
           <mxGeometry x="63.75000000000001" y="12.381278195488719" width="29.77464285714285" height="60.357142857142854" as="geometry" />
         </mxCell>
-        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-25" value="Master Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFF99;labelBorderColor=default;spacing=2;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-28">
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-25" value="Master/Name Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;labelBackgroundColor=#FFFF99;labelBorderColor=default;spacing=2;" vertex="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-28">
           <mxGeometry x="10" y="220" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;" edge="1" parent="UVAYdv0MmzfgJ1ZcaGCZ-28" source="UVAYdv0MmzfgJ1ZcaGCZ-26" target="UVAYdv0MmzfgJ1ZcaGCZ-12">
