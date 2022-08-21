@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-21T12:47:43.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="a8-FIl-EB-WD4XzVDvSW" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-21T12:48:49.124Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="yn_XdvC93IhnC_brvc9U" version="20.2.2" type="github">
   <diagram id="l7_K_nKnjWlxzMIl-Vjb" name="Page-1">
     <mxGraphModel dx="2447" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -176,6 +176,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-106" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="UVAYdv0MmzfgJ1ZcaGCZ-86" target="UVAYdv0MmzfgJ1ZcaGCZ-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-86" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 17px;&quot;&gt;HiveSql&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_SQL.svg;labelBackgroundColor=none;labelBorderColor=default;fontColor=#000000;fillColor=#99FF99;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="361" y="-120" width="64" height="46" as="geometry" />
         </mxCell>
@@ -210,6 +213,9 @@
         </mxCell>
         <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-101" value="&amp;nbsp;&lt;b style=&quot;font-size: 15px;&quot;&gt;Hive Remote Meta-Store&amp;nbsp;&lt;/b&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;Mysql or any RDBMS system&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;Hive embedded Data-Store&lt;/b&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;derby DB" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#fff2cc;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#d6b656;fontSize=15;align=center;" vertex="1" parent="1">
           <mxGeometry x="510" y="-40" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-105" value="&lt;b&gt;Hive File-Store&lt;/b&gt;&lt;br&gt;HDFS" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#fff2cc;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="214.5" y="30" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
