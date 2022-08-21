@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-21T06:01:57.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="VFfmhLO7B-j5FYVP8Hzr" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-21T06:05:37.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="PNjTcyqYjLb7uRl-QITL" version="20.2.2" type="github">
   <diagram id="l7_K_nKnjWlxzMIl-Vjb" name="Page-1">
     <mxGraphModel dx="2447" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -161,6 +161,11 @@
         <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-88" value="&lt;b style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;Query Engine&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontColor=#000000;" vertex="1" connectable="0" parent="UVAYdv0MmzfgJ1ZcaGCZ-87">
           <mxGeometry x="-0.7658" y="-1" relative="1" as="geometry">
             <mxPoint y="44" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-98" value="CURD &amp;amp; Join" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontColor=#000000;fontStyle=1" vertex="1" connectable="0" parent="UVAYdv0MmzfgJ1ZcaGCZ-87">
+          <mxGeometry x="0.6623" y="1" relative="1" as="geometry">
+            <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UVAYdv0MmzfgJ1ZcaGCZ-86" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 17px;&quot;&gt;HiveSql&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_SQL.svg;labelBackgroundColor=none;labelBorderColor=default;fontColor=#000000;fillColor=#99FF99;gradientColor=none;" vertex="1" parent="1">
