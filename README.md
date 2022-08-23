@@ -52,6 +52,7 @@ Run pyspark python code using spark-submit job:
 [![SC2 Video](https://img.youtube.com/vi/WyZmM6K7ubc/0.jpg)](https://www.youtube.com/playlist?list=PLZoTAELRMXVNjiiawhzZ0afHcPvC8jpcg)
 
 # Other Video References:
+https://www.youtube.com/c/UnfoldDataScience/playlists
 [![SC2 Video](https://img.youtube.com/vi/zUiTu8HJ3Tg/0.jpg)](https://www.youtube.com/watch?v=zUiTu8HJ3Tg)
 [![SC2 Video](https://img.youtube.com/vi/t90FMQr9WWc/0.jpg)](https://www.youtube.com/watch?v=t90FMQr9WWc)
 [![SC2 Video](https://img.youtube.com/vi/5c-d5YZ3cc8/0.jpg)](https://www.youtube.com/watch?v=5c-d5YZ3cc8&list=PLZoTAELRMXVN_8zzsevm1bm6G-plsiO1I&index=4)
