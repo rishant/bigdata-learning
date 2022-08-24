@@ -38,30 +38,6 @@ Run pyspark python code using spark-submit job:
 - cmd:/> spark-submit --packages org.mongodb.spark:mongo-spark-connector:10.0.3 .\day1-python-spark-practices\mongo_db_testing_main.py
 - cmd:/> spark-submit .\day1-python-spark-practices\main.py
 
-# Installation & Setup Video References:
-[![SC2 Video](https://img.youtube.com/vi/3LTSSzBZvXE/0.jpg)](https://www.youtube.com/watch?v=3LTSSzBZvXE&t=2s)
-[![SC2 Video](https://img.youtube.com/vi/ZVW3AJwGy8E/0.jpg)](https://www.youtube.com/watch?v=ZVW3AJwGy8E)
-[![SC2 Video](https://img.youtube.com/vi/cxdDL_EsByQ/0.jpg)](https://www.youtube.com/watch?v=cxdDL_EsByQ)
-[![SC2 Video](https://img.youtube.com/vi/CrLXa9hEprE/0.jpg)](https://www.youtube.com/watch?v=CrLXa9hEprE)
-[![SC2 Video](https://img.youtube.com/vi/9-v9WporLrI/0.jpg)](https://www.youtube.com/watch?v=9-v9WporLrI)
-
-# Spark Learning:
-[![SC2 Video](https://img.youtube.com/vi/_C8kWso4ne4/0.jpg)](https://www.youtube.com/watch?v=_C8kWso4ne4&t=3979s)
-[![SC2 Video](https://img.youtube.com/vi/cZS5xYYIPzk/0.jpg)](https://www.youtube.com/watch?v=cZS5xYYIPzk&t=543s)
-[![SC2 Video](https://img.youtube.com/vi/GygBAobkC_4/0.jpg)](https://www.youtube.com/watch?v=GygBAobkC_4)
-[![SC2 Video](https://img.youtube.com/vi/WyZmM6K7ubc/0.jpg)](https://www.youtube.com/playlist?list=PLZoTAELRMXVNjiiawhzZ0afHcPvC8jpcg)
-
-# Other Video References:
-https://www.youtube.com/c/UnfoldDataScience/playlists
-[![SC2 Video](https://img.youtube.com/vi/zUiTu8HJ3Tg/0.jpg)](https://www.youtube.com/watch?v=zUiTu8HJ3Tg)
-[![SC2 Video](https://img.youtube.com/vi/t90FMQr9WWc/0.jpg)](https://www.youtube.com/watch?v=t90FMQr9WWc)
-[![SC2 Video](https://img.youtube.com/vi/5c-d5YZ3cc8/0.jpg)](https://www.youtube.com/watch?v=5c-d5YZ3cc8&list=PLZoTAELRMXVN_8zzsevm1bm6G-plsiO1I&index=4)
-[![SC2 Video](https://img.youtube.com/vi/_hf_y-_sj5Y/0.jpg)](https://www.youtube.com/watch?v=_hf_y-_sj5Y&list=PLZoTAELRMXVN7QGpcuN-Vg35Hgjp3htvi&index=1)
-[![SC2 Video](https://img.youtube.com/vi/tSRCACUmnII/0.jpg)](https://www.youtube.com/watch?v=tSRCACUmnII)
-
-# Other References:
-- https://sparkbyexamples.com/spark/add-multiple-jars-to-spark-submit-classpath/
-
 # Python Virtual Environment Creation and Restore using requirements.txt file
 - https://www.akamai.com/blog/developers/how-building-virtual-python-environment
 
@@ -82,3 +58,27 @@ https://www.youtube.com/c/UnfoldDataScience/playlists
         ----- \
     **Step: 4 - Use below command to freeze Virtual Environment and CREATE requirements.txt** \
         (venv)  cmd:/> pip freeze > requirements.txt
+
+# Installation & Setup Video References:
+[![SC2 Video](https://img.youtube.com/vi/3LTSSzBZvXE/1.jpg)](https://www.youtube.com/watch?v=3LTSSzBZvXE&t=2s)
+[![SC2 Video](https://img.youtube.com/vi/ZVW3AJwGy8E/1.jpg)](https://www.youtube.com/watch?v=ZVW3AJwGy8E)
+[![SC2 Video](https://img.youtube.com/vi/cxdDL_EsByQ/1.jpg)](https://www.youtube.com/watch?v=cxdDL_EsByQ)
+[![SC2 Video](https://img.youtube.com/vi/CrLXa9hEprE/1.jpg)](https://www.youtube.com/watch?v=CrLXa9hEprE)
+[![SC2 Video](https://img.youtube.com/vi/9-v9WporLrI/1.jpg)](https://www.youtube.com/watch?v=9-v9WporLrI)
+
+# Spark Learning:
+[![SC2 Video](https://img.youtube.com/vi/_C8kWso4ne4/1.jpg)](https://www.youtube.com/watch?v=_C8kWso4ne4&t=3979s)
+[![SC2 Video](https://img.youtube.com/vi/cZS5xYYIPzk/1.jpg)](https://www.youtube.com/watch?v=cZS5xYYIPzk&t=543s)
+[![SC2 Video](https://img.youtube.com/vi/GygBAobkC_4/1.jpg)](https://www.youtube.com/watch?v=GygBAobkC_4)
+[![SC2 Video](https://img.youtube.com/vi/WyZmM6K7ubc/1.jpg)](https://www.youtube.com/playlist?list=PLZoTAELRMXVNjiiawhzZ0afHcPvC8jpcg)
+
+# Other Video References:
+[![SC2 Video](https://img.youtube.com/vi/zUiTu8HJ3Tg/1.jpg)](https://www.youtube.com/watch?v=zUiTu8HJ3Tg)
+[![SC2 Video](https://img.youtube.com/vi/t90FMQr9WWc/1.jpg)](https://www.youtube.com/watch?v=t90FMQr9WWc)
+[![SC2 Video](https://img.youtube.com/vi/5c-d5YZ3cc8/1.jpg)](https://www.youtube.com/watch?v=5c-d5YZ3cc8&list=PLZoTAELRMXVN_8zzsevm1bm6G-plsiO1I&index=4)
+[![SC2 Video](https://img.youtube.com/vi/_hf_y-_sj5Y/1.jpg)](https://www.youtube.com/watch?v=_hf_y-_sj5Y&list=PLZoTAELRMXVN7QGpcuN-Vg35Hgjp3htvi&index=1)
+[![SC2 Video](https://img.youtube.com/vi/tSRCACUmnII/1.jpg)](https://www.youtube.com/watch?v=tSRCACUmnII)
+https://www.youtube.com/c/UnfoldDataScience/playlists
+
+# Other References:
+- https://sparkbyexamples.com/spark/add-multiple-jars-to-spark-submit-classpath/
