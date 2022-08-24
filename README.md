@@ -35,8 +35,8 @@
 
 ### Step:5 - Testing, Run & verify Script "data_pipline.py"
 Run pyspark python code using spark-submit job:
-- cmd:/> spark-submit --packages org.mongodb.spark:mongo-spark-connector:10.0.3 .\day1-python-spark-practices\mongo_db_testing_main.py
-- cmd:/> spark-submit .\day1-python-spark-practices\main.py
+> - cmd:/> spark-submit --packages org.mongodb.spark:mongo-spark-connector:10.0.3 .\1PythonPracitices\pyspark-practices\mongo_db_testing_main.py
+> - cmd:/> spark-submit .\1PythonPracitices\pyspark-practices\main.py
 
 # Python Virtual Environment Creation and Restore using requirements.txt file
 - https://www.akamai.com/blog/developers/how-building-virtual-python-environment
