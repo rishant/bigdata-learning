@@ -2,7 +2,7 @@
     cmd:/> git clone https://github.com/rishant/bigdata-learning.git
 
 # Step: 1 - Goto the project folder
-    cmd:/> cd <project_floder>\bigdata-learning\day1-python-spark-practices
+    cmd:/> cd <project_floder>\bigdata-learning\1PythonPracitices\pyspark-practices
 
 # Step: 2 - Use below command to create Virtual Environment
     cmd:/> pip install venv
