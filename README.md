@@ -45,7 +45,7 @@ Run pyspark python code using spark-submit job:
         cmd:/> git clone https://github.com/rishant/bigdata-learning.git \
         ------ \
     **Step: 1 - Goto the project folder** \
-        cmd:/> cd <project_floder>\bigdata-learning\1PythonPracitices\pyspark-practices \
+        cmd:/> cd <project_floder>bigdata-learning\4PythonSpark \
         ----- \
     **Step: 2 - Use below command to create Virtual Environment** \
         cmd:/> pip install venv \
