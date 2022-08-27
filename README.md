@@ -59,6 +59,12 @@ Run pyspark python code using spark-submit job:
     **Step: 4 - Use below command to freeze Virtual Environment and CREATE requirements.txt** \
         (venv)  cmd:/> pip freeze > requirements.txt
 
+# Python Learning References:
+	- https://pythonexamples.org/python-enum/
+	- https://www.educba.com/software-development/software-development-tutorials/python-tutorial/
+	
+[![SC2 Video](https://img.youtube.com/vi/sCOw5y1RQpY/0.jpg)](https://www.youtube.com/watch?v=sCOw5y1RQpY&t=48857s)
+
 # Installation & Setup Video References:
 [![SC2 Video](https://img.youtube.com/vi/3LTSSzBZvXE/1.jpg)](https://www.youtube.com/watch?v=3LTSSzBZvXE&t=2s)
 [![SC2 Video](https://img.youtube.com/vi/ZVW3AJwGy8E/1.jpg)](https://www.youtube.com/watch?v=ZVW3AJwGy8E)

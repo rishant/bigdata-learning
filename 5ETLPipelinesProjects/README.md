@@ -1,3 +1,5 @@
+[![SC2 Video](https://img.youtube.com/vi/v67JHa4MrnQ/0.jpg)](https://www.youtube.com/watch?v=v67JHa4MrnQ)
+
 [![SC2 Video](https://img.youtube.com/vi/Zm0fiUuvkek/0.jpg)](https://www.youtube.com/watch?v=Zm0fiUuvkek&list=PLCLE6UVwCOi3jZp6JP9Q9qIKqJ1sFuaLC&index=11)
 
 [![SC2 Video](https://img.youtube.com/vi/GD3FL7pRc3U/0.jpg)](https://www.youtube.com/watch?v=GD3FL7pRc3U&list=PLCLE6UVwCOi3jZp6JP9Q9qIKqJ1sFuaLC&index=12)
