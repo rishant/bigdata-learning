@@ -19,7 +19,7 @@
 
 > pyspark.sql.utils.AnalysisException: Couldn't find table course in etl_course - Found similar tables in that keyspace: etl_course.course2
 
-# Solutions :: Create first KEYSPACE and then TABLE with all the colum definition.
+# Solutions :: Create first KEYSPACE and then TABLE with all the column's definition.
 ## Using commandline CLI:
 > cmd:/> <cassandra_home>/bin/cqlsh.bat
 
