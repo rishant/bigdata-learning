@@ -15,14 +15,14 @@
 	5. Verify result in "Cassandra"
 
 
-> $SPARK_HOME/bin/park-submit --packages mysql:mysql-connector-java:8.0.30,org.mongodb.spark:mongo-spark-connector:10.0.3,com.datastax.spark:spark-cassandra-connector_2.12:3.1.0 --conf spark.mongodb.input.uri=mongodb://localhost:27017/etl_course.course --conf spark.mongodb.output.uri=mongodb://localhost:27017/etl_course.course --conf spark.sql.extensions=com.datastax.spark.connector.CassandraSparkExtensions --conf spark.cassandra.connection.host=localhost --conf spark.sql.catalog.cassandra=com.datastax.spark.connector.datasource.CassandraCatalog C:\bigdata-learning\5ETLPipelinesProjects\Day4_ETL_Pipeline_Pyspark_Extract_Mysql_To_Cassandra\data_pipeline.py
+> **$SPARK_HOME/bin/park-submit** --packages mysql:mysql-connector-java:8.0.30,org.mongodb.spark:mongo-spark-connector:10.0.3,com.datastax.spark:spark-cassandra-connector_2.12:3.1.0 --conf spark.mongodb.input.uri=mongodb://localhost:27017/etl_course.course --conf spark.mongodb.output.uri=mongodb://localhost:27017/etl_course.course --conf spark.sql.extensions=com.datastax.spark.connector.CassandraSparkExtensions --conf spark.cassandra.connection.host=localhost --conf spark.sql.catalog.cassandra=com.datastax.spark.connector.datasource.CassandraCatalog C:\bigdata-learning\5ETLPipelinesProjects\Day4_ETL_Pipeline_Pyspark_Extract_Mysql_To_Cassandra\data_pipeline.py
 
-> $SPARK_HOME/bin/pyspark --packages com.datastax.spark:spark-cassandra-connector_2.12:3.2.0 --conf spark.sql.extensions=com.datastax.spark.connector.CassandraSparkExtensions --conf spark.cassandra.connection.host=localhost --conf spark.sql.catalog.cassandra=com.datastax.spark.connector.datasource.CassandraCatalog
+> **$SPARK_HOME/bin/pyspark** --packages com.datastax.spark:spark-cassandra-connector_2.12:3.2.0 --conf spark.sql.extensions=com.datastax.spark.connector.CassandraSparkExtensions --conf spark.cassandra.connection.host=localhost --conf spark.sql.catalog.cassandra=com.datastax.spark.connector.datasource.CassandraCatalog
 
 # Problems :: Schema related errors with pyspark with cassandra:
-> Caused by: java.util.NoSuchElementException: Columns not found in table etl_course.course2: _id
+> **Caused by: java.util.NoSuchElementException:** Columns not found in table etl_course.course2: _id
 
-> pyspark.sql.utils.AnalysisException: Couldn't find table course in etl_course - Found similar tables in that keyspace: etl_course.course2
+> **pyspark.sql.utils.AnalysisException:** Couldn't find table course in etl_course - Found similar tables in that keyspace: etl_course.course2
 
 <br />
 <br />
@@ -34,24 +34,24 @@
 
 # Solutions :: Create first KEYSPACE and then TABLE with all the column's definition.
 ## Using commandline CLI:
-> cmd:/> <cassandra_home>/bin/cqlsh.bat
+> cmd:/> **<cassandra_home>/bin/cqlsh.bat --color**
 
-> cqlsh>> CREATE KEYSPACE etl_course WITH replication = {'class':'SimpleStrategy', 'replication_factor' : 1};
+> cqlsh>> **CREATE KEYSPACE etl_course WITH replication = {'class':'SimpleStrategy', 'replication_factor' : 1};**
 
-> cqlsh>> USE etl_course;
+> cqlsh>> **USE etl_course;**
 
-> cqlsh>> CREATE TABLE etl_course.course2( \
+> cqlsh>> REATE TABLE etl_course.course2( \
  			course_id text PRIMARY KEY, \
      		course_name text, \
   			author_name text, \
   			no_of_reviews text \
- 		) \ 
+ 		)
 
-> cqlsh>> SEELCT * FROM etl_course.course2;
+> cqlsh>> **SEELCT * FROM etl_course.course2;**
 
-> cqlsh>> DROP TABLE etl_course.course2;
+> cqlsh>> **DROP TABLE etl_course.course2;**
 
-> cqlsh>> DROP KEYSPACE etl_course;
+> cqlsh>> **DROP KEYSPACE etl_course;**
 
 ## Using Cassandra GUI client:
 [![SC2 Video](https://img.youtube.com/vi/zCHe3V50kVs/0.jpg)](https://www.youtube.com/watch?v=zCHe3V50kVs)
