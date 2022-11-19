@@ -27,10 +27,11 @@
 <br />
 <br />
 
-| Upgrade cqlsh script for python3  | 
-| -------------                     | 
-| https://downloads.datastax.com/#cqlsh |
-| ![IMG_PNG](cqlsh_changes.PNG) ![IMG_PNG](cqlsh_enable_color_code.PNG) |
+| Upgrade cqlsh script for python3        |
+|-----------------------------------------|
+| https://downloads.datastax.com/#cqlsh   |
+| ![IMG_PNG](cqlsh_changes.PNG)           |
+| ![IMG_PNG](cqlsh_enable_color_code.PNG) |
 
 # Solutions :: Create first KEYSPACE and then TABLE with all the column's definition.
 ## Using commandline CLI:

@@ -31,3 +31,6 @@
 
 #### verify installed 'requirements.txt' dependencies
 ![img_4.png](readme_resources/img_4.png)
+
+https://sparkbyexamples.com/pyspark-tutorial/
+https://www.youtube.com/watch?v=Zuf_ynyCXx8&list=PLBSCvBlTOLa9oTtXH3vNaaw7jT9kXFwjb
